@@ -11,7 +11,7 @@ This project contains a complete authentication system using Node.js, Express, a
   <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/dangkythanhcong.png" />
 - **Sign-in**: Log into your account securely.
   <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/sign_in_new_account.png" />
-  
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/dangnhapthanhcong.png" />
 - **Sign Out**: Log out of your session.
   <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/sign_out.png" />
 - **Reset Password**: You can reset your passwords after signing in.
@@ -25,11 +25,10 @@ This project contains a complete authentication system using Node.js, Express, a
   <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/forgot_pass.png" />
   <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/forget_pass_email.png" />
   <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/nhanpass_tu_email.png" />
-  
 - **Password Strength Validation**: Notifications are displayed for unmatching passwords during sign up and incorrect passwords during sign in.
   <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/dangnhapsai.png" />
 - **reCAPTCHA Integration**: Protects against bot traffic on sign up and login pages.
- <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/recapcha_in_page.png" />
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/recapcha_in_page.png" />
   <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/recapcha_page02.png" />
 ## Environment Variables
 
@@ -39,10 +38,15 @@ Before running the application locally, ensure you have set up the following env
 2. **DB_URL**: MongoDB database connection URL.
 3. **CLIENT_ID**: Google OAuth client ID.
 4. **CLIENT_SECRET**: Google OAuth client secret (sign in with Google).
-5. **EMAIL**: Email address for sending emails.
-6. **PASSWORD**: App-specific password or regular password for the Gmail account.
-7. **RECAPTCHA_SECRET_KEY**: Google reCAPTCHA secret key.
-8. **CLIENT_URL**: URL to redirect after signing in with Google, e.g., "http://localhost:3000/auth/login/success".
+   <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/lay_key_client.png" />
+6. **EMAIL**: Email address for sending emails.
+   EMAIL: tutaivovan@gmail.com
+8. **PASSWORD**: App-specific password or regular password for the Gmail account.
+   <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/lay_pass_ud_de_nhan_email.png" />
+10. **RECAPTCHA_SECRET_KEY**: Google reCAPTCHA secret key.
+    <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/recapcha.png" />
+12. **CLIENT_URL**: URL to redirect after signing in with Google, e.g., "http://localhost:3000/auth/login/success".
+    <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/lay_key_client.png" />
 
 Ensure that you have the appropriate values for each variable before running the application.
 
