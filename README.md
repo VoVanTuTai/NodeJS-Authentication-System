@@ -3,19 +3,34 @@
 This project contains a complete authentication system using Node.js, Express, and MongoDB. It includes features like sign up, sign in, sign out, password reset, and social authentication (Google). The project is structured to be scalable with separate components for models, controllers, and routes.
 
 ## Live Site
-[Click here](https://nodejs-authentication-system-l2pu.onrender.com/user/signin) to visit the live site.
-
+[Click here](http://localhost:3000/user/signout) to visit the live site.
 ## Features Implemented
 - **Sign-up with Email**: Create an account using your email and password.
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/sign_up.png" />
+- **Đăng ký thành công**
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/dangkythanhcong.png" />
 - **Sign-in**: Log into your account securely.
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/sign_in_new_account.png" />
+  
 - **Sign Out**: Log out of your session.
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/sign_out.png" />
 - **Reset Password**: You can reset your passwords after signing in.
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/changepass.png" />
 - **Encrypted Passwords**: Passwords are securely stored using encryption.
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/mongo02.png" />
 - **Google Login/Signup**: Sign in or sign up using your Google account.
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/sign_in_email.png" />
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/sign_in_email_success.png" />
 - **Forgot Password**: Reset your password via email.
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/forgot_pass.png" />
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/forget_pass_email.png" />
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/nhanpass_tu_email.png" />
+  
 - **Password Strength Validation**: Notifications are displayed for unmatching passwords during sign up and incorrect passwords during sign in.
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/dangnhapsai.png" />
 - **reCAPTCHA Integration**: Protects against bot traffic on sign up and login pages.
-
+ <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/recapcha_in_page.png" />
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/recapcha02.png" />
 ## Environment Variables
 
 Before running the application locally, ensure you have set up the following environment variables in a .env file located at the root of your project:
