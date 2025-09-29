@@ -30,7 +30,7 @@ This project contains a complete authentication system using Node.js, Express, a
   <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/dangnhapsai.png" />
 - **reCAPTCHA Integration**: Protects against bot traffic on sign up and login pages.
  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/recapcha_in_page.png" />
-  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/recapcha02.png" />
+  <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/NodeJS-Authentication-System/blob/main/Images_report/recapcha_page02.png" />
 ## Environment Variables
 
 Before running the application locally, ensure you have set up the following environment variables in a .env file located at the root of your project:
